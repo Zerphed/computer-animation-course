@@ -1,0 +1,123 @@
+HIERARCHY
+ROOT Hips
+{
+    OFFSET 0.000000 0.000000 0.000000
+    CHANNELS 6 Xposition Yposition Zposition Zrotation Xrotation Yrotation
+    JOINT Ab
+    {
+        OFFSET -0.000000 8.084561 -0.000000
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT Chest
+        {
+            OFFSET -0.000000 23.498924 -0.000000
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            JOINT Neck
+            {
+                OFFSET -0.000000 23.498922 0.000000
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT Head
+                {
+                    OFFSET -0.000000 10.755555 0.000000
+                    CHANNELS 3 Zrotation Xrotation Yrotation
+                    End Site
+                    {
+                        OFFSET -0.000000 16.622223 0.000000
+                    }
+                }
+            }
+            JOINT LeftCollar
+            {
+                OFFSET -0.000000 23.498922 0.000000
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT LeftShoulder
+                {
+                    OFFSET 19.555553 -0.000000 0.000000
+                    CHANNELS 3 Zrotation Xrotation Yrotation
+                    JOINT LeftElbow
+                    {
+                        OFFSET 27.152813 0.000000 0.000000
+                        CHANNELS 3 Zrotation Xrotation Yrotation
+                        JOINT LeftWrist
+                        {
+                            OFFSET 22.058222 0.000000 0.000000
+                            CHANNELS 3 Zrotation Xrotation Yrotation
+                            End Site
+                            {
+                                OFFSET 0.000000 -14.666668 0.000000
+                            }
+                        }
+                    }
+                }
+            }
+            JOINT RightCollar
+            {
+                OFFSET -0.000000 23.498922 0.000000
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT RightShoulder
+                {
+                    OFFSET -19.555553 0.000000 0.000000
+                    CHANNELS 3 Zrotation Xrotation Yrotation
+                    JOINT RightElbow
+                    {
+                        OFFSET -27.152813 0.000000 0.000000
+                        CHANNELS 3 Zrotation Xrotation Yrotation
+                        JOINT RightWrist
+                        {
+                            OFFSET -22.058222 0.000000 0.000000
+                            CHANNELS 3 Zrotation Xrotation Yrotation
+                            End Site
+                            {
+                                OFFSET -0.000000 -14.666668 0.000000
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    JOINT LeftHip
+    {
+        OFFSET 11.733333 0.000000 0.000000
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT LeftKnee
+        {
+            OFFSET -0.000000 -44.661652 0.000000
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            JOINT LeftAnkle
+            {
+                OFFSET -0.000000 -38.481915 0.000000
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                End Site
+                {
+                    OFFSET -0.000000 -4.888888 16.622223
+                }
+            }
+        }
+    }
+    JOINT RightHip
+    {
+        OFFSET -11.733333 0.000000 0.000000
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT RightKnee
+        {
+            OFFSET -0.000000 -44.661652 0.000000
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            JOINT RightAnkle
+            {
+                OFFSET -0.000000 -38.481915 0.000000
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                End Site
+                {
+                    OFFSET -0.000000 -4.888888 16.622223
+                }
+            }
+        }
+    }
+}
+MOTION
+Frames:    3
+Frame Time:    0.010000
+0.0    0.0    0.0    -0.0    -0.0    -0.0    0.0    0.0    -0.0    -0.0    -0.0    -0.0    -0.0    0.0    0.0    0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    -0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    0.0    0.0    -0.0    -0.0    -0.0 
+0.0    0.0    0.0    -0.0    -0.0    -0.0    10.0    0.0    0.0    -0.0    -0.0    -0.0    -0.0    0.0    0.0    0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    -0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    0.0    0.0    -0.0    -0.0    -0.0 
+0.0    0.0    0.0    -0.0    -0.0    -0.0    20.0    0.0    0.0    -0.0    -0.0    -0.0    -0.0    0.0    0.0    0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    0.0    -0.0    -0.0    -0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    -0.0    0.0    0.0    0.0    -0.0    -0.0    -0.0 
+
